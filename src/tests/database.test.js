@@ -9,7 +9,7 @@ jest.mock('mysql2/promise', () => ({
   }),
 }));
 
-const { DB, Role } = require('../database/database.js');
+const { DB } = require('../database/database.js');
 const bcrypt = require('bcrypt');
 
 let connection;

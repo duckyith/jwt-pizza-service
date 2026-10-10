@@ -1,6 +1,6 @@
 const request = require('supertest');
 const app = require('../service');
-const { DB, Role } = require('../database/database.js');
+const { DB } = require('../database/database.js');
 const jwt = require('jsonwebtoken');
 const config = require('../config.js');
 
